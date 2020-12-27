@@ -3,9 +3,9 @@ title:  "마크다운 기본 문법"
 excerpt: "블로그를 운영하기 위해 기본적으로 마크다운(makedown)문법을 알아야 하여 기본적인 내용을 정리해봅니다."
 
 categories:
-  - Blog
+  - Posts
 tags:
-  - Blog
+  - Posts
 last_modified_at: 2020-12-28T05:21:00+09:00
 ---
   

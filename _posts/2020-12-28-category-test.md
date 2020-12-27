@@ -3,7 +3,7 @@ title:  "canvas 테스트"
 excerpt: "canvas 카테고리 테스트"
 
 categories:
-  - Life
+  - canvas
 tags:
   - canvas
   - html5
