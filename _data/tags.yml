@@ -1,8 +1,0 @@
-devlog:
-  name: log (개발일지)
-  description: 개발일지
-  cover: False  
-life:
-  name: life
-  description: life
-  cover: False

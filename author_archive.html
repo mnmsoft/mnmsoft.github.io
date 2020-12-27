@@ -36,7 +36,7 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="특별한 카톡메시지, 특별한 카톡편지, 이름궁합, 터치팡팡, 청기백기 등을 서비스하는 엠엠엠소프트의 개발입니다." />
     <link rel="shortcut icon" href="http://localhost:4000/blog/assets/images/mnmlog.png" type="image/png" />
-    <link rel="canonical" href="http://localhost:4000/blog/" />
+    <link rel="canonical" href="http://localhost:4000/blog/author_archive" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
@@ -44,7 +44,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="mnmsoft blog" />
     <meta property="og:description" content="특별한 카톡메시지, 특별한 카톡편지, 이름궁합, 터치팡팡, 청기백기 등을 서비스하는 엠엠엠소프트의 개발입니다." />
-    <meta property="og:url" content="http://localhost:4000/blog/" />
+    <meta property="og:url" content="http://localhost:4000/blog/author_archive" />
     <meta property="og:image" content="http://localhost:4000/blog/assets/images/blog-cover.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -68,7 +68,7 @@
         "name": "mnmsoft blog",
         "logo": "http://localhost:4000/blog/"
     },
-    "url": "http://localhost:4000/blog/",
+    "url": "http://localhost:4000/blog/author_archive",
     "image": {
         "@type": "ImageObject",
         "url": "http://localhost:4000/blog/assets/images/blog-cover.jpg",
@@ -77,7 +77,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4000/blog/"
+        "@id": "http://localhost:4000/blog/author_archive"
     },
     "description": "특별한 카톡메시지, 특별한 카톡편지, 이름궁합, 터치팡팡, 청기백기 등을 서비스하는 엠엠엠소프트의 개발입니다."
 }
@@ -105,32 +105,15 @@
 into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer " style="background-image:  url(/blog/assets/images/blog-cover.jpg) ">
+<header class="site-header outer">
     <div class="inner">
-        <div class="site-header-content">
-            <h1 class="site-title">
-                
-                    mnmsoft blog
-                
-            </h1>
-            <h2 class="site-description">특별한 카톡메시지, 특별한 카톡편지, 이름궁합, 터치팡팡, 청기백기 등을 서비스하는 엠엠엠소프트의 개발입니다.</h2>
-        </div>
         <nav class="site-nav">
     <div class="site-nav-left">
         
+            
+                <a class="site-nav-logo" href="http://localhost:4000/blog/">mnmsoft blog</a>
+            
         
-            <ul class="nav" role="menu">
-    <li class="nav-home" role="menuitem"><a href="/blog/">Home</a></li>
-    <li class="nav-about" role="menuitem"><a href="/blog/about/">About</a></li>
-    <li class="nav-archive" role="menuitem"><a href="/blog/tag/devlog/">개발일지</a></li>
-    <li class="nav-archive" role="menuitem"><a href="/archive.html">All Posts</a></li>
-    <li class="nav-archive" role="menuitem"><a href="/author_archive.html">tag별 Posts</a></li>
-
-    
-
-
-</ul>
-
         
     </div>
     <div class="site-nav-right">
@@ -147,151 +130,40 @@ into the {body} of the default.hbs template -->
     </div>
 </header>
 
-<!-- The main content area -->
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <div class="post-feed">
-            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
+        <article class="post-full   no-image">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title"></h1>
+            </header>
+
             
 
+            <section class="post-full-content">
+                <p>author_archive</p>
 
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/blog/left001">
-                <div class="post-card-image" style="background-image: url(/blog/assets/images/bus.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/blog/left001">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Life</span>
-                            
-                        
-                    
+            </section>
 
-                    <h2 class="post-card-title">블로그 두번째 글 테스트</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>#Hello World
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/blog/assets/images/mnmlog.png" alt="mnmsoft" />
-                        
-                        <span class="post-card-author">
-                            <a href="/blog/author/mnmsoft/">mnmsoft</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/blog/devlog001">
-                <div class="post-card-image" style="background-image: url(/blog/assets/images/bus.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/blog/devlog001">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Devlog</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">블로그 첫번째 글 테스트</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>#Hello World
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/blog/assets/images/mnmlog.png" alt="mnmsoft" />
-                        
-                        <span class="post-card-author">
-                            <a href="/blog/author/mnmsoft/">mnmsoft</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/blog/gettysburg-address">
-                <div class="post-card-image" style="background-image: url(/blog/assets/images/bus.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/blog/gettysburg-address">
-                <header class="post-card-header">
-                    
-
-                    <h2 class="post-card-title">Gettysburg Address</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-
-        </div>
+        </article>
 
     </div>
 </main>
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
 
 
         <!-- Previous/next page links - displayed on every page -->
@@ -364,7 +236,7 @@ into the {body} of the default.hbs template -->
     <!-- Paginator increased to "infinit" in _config.yml -->
     <!-- if paginator.posts  -->
     <!-- <script>
-        var maxPages = parseInt('1');
+        var maxPages = parseInt('');
     </script>
     <script src="/blog/assets/js/infinitescroll.js"></script> -->
     <!-- /endif -->
