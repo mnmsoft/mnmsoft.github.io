@@ -2,11 +2,12 @@
 markdown: kramdown
 # kramdown 마크다운의 개선판임.
 
-owner: 
-  name:   mnmsoft
-  avatar: 
-  bio: 엠엔엠소프트 개발자
+# timezone: Asia/Seoul # timezone 설정
 
+#owner: 
+#  name:   mnmsoft
+#  avatar: 
+#  bio: 엠엔엠소프트 개발자
 
 highlighter: rouge
 #text highlighter로 rouge이용
@@ -23,7 +24,8 @@ words_per_minute: 200
 url: https://mnmsoft.github.io
 # sitemap 생성시 필요. disqus 를 사용할때에도 필요!
 
-baseurl: /
+baseurl: /blog/
+# 하위 폴더 작성.
 
 
 # Website info
@@ -32,9 +34,9 @@ description: 특별한 카톡메시지, 특별한 카톡편지, 이름궁합, �
 cover: assets/images/blog-cover.jpg
 #블로그 홈에 표시되는 이미지
 
-logo: assets/images/mnmlog.png #assets/images/blog-icon.png
+logo: #assets/images/mnmlog.png #assets/images/blog-icon.png
 
-logo_dark: assets/images/mnmlog.png #assets/images/favicon.png
+logo_dark: #assets/images/mnmlog.png #assets/images/favicon.png
 favicon: assets/images/mnmlog.png #assets/images/favicon.png
 
 production_url:  https://mnmsoft.github.io
@@ -124,3 +126,6 @@ exclude:
   - "*.Rmd"
   - .git*
 #제외해야할 파일.
+
+
+keep_files: [assets, files] # 유지할 파일들
