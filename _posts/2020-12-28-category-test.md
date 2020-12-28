@@ -1,6 +1,6 @@
 ---
-title:  "canvas 테스트"
-excerpt: "canvas 카테고리 테스트"
+title:  "canvas 를 이용하여 canvas + javascript 게임 만들기 a.k.a 개미잡기 = 터치팡팡 "
+excerpt: "html5의 캔버스(canvas)를 이용하여 터치팡팡게임을 만드는 과정을 소개합니다. a.k.a 개미잡기"
 
 categories:
   - canvas
@@ -11,7 +11,18 @@ tags:
 last_modified_at: 2020-12-28T07:21:00+09:00
 ---
 
-테스트
+# 캔버스 기본정보
+canvas는 html5에서 제공하는 Tag Element 로 2차원 모양의 비트맵 그림을 처리할수 있다.  
+
+html이나 css속성으로 처리하지 않고 javascript로 canvas 에 그림을 그리는 방식이다.
+
+예를 들어 보자.
+```
+```
+
+
+# 캔버스에 기본 공그려보기
+ 
 
   
   

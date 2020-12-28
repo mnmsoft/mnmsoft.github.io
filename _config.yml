@@ -279,3 +279,5 @@ defaults:
       comments: true # true # 블로그 댓글 기능
       share: true
       related: true
+      toc_ads: true
+      toc_sticky: true      
