@@ -1,5 +1,5 @@
 ---
-title:  "mnmsoft.github.io 블로그 시작"
+title:  "blog.mnmsoft.co.kr 블로그 시작"
 excerpt: "엠엔엠소프트의 개발일지를 GitHub Blog 서비스인 github.io 를 통하여 기록합니다."
 
 categories:

@@ -1,8 +1,8 @@
 main:
   - title: "Abount"
-    url: "https://mnmsoft.github.io/about/"
+    url: "/about/"
   - title: "터치팡팡개발과정"
-    url: "https://mnmsoft.github.io/categories/antkill/"
+    url: "/categories/antkill/"
   - title: "Categories"
     url: /categories/
   - title: "Tags"
