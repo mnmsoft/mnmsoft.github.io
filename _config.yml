@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "엠엔엠소프트 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "개발일지및 일상의 이야기를 다룹니다."
+name                     : "mnmsoft blog"
 description              : "특별한 카톡 메시지를 서비스하는 엠엠엠소프트의 개발일지및 일상의 소소한 이야기를 다룹니다."
 url                      : "https://mnmsoft.github.io"
 baseurl                  : ""
@@ -97,7 +97,7 @@ analytics:
 author:
   name             : "mnmsoft"
   avatar           : "/assets/images/mnmlog.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "엠엠엠소프트 개발자"
+  bio              : "엠엠엠소프트 개발자 : 개발일지및 일상의 이야기를 다룹니다."
   location         : "대한민국 서울"
   email            : "mnmsoftdesign@gmail.com"
   links:
