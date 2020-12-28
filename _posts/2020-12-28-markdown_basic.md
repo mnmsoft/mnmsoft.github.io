@@ -159,18 +159,18 @@ console.log("test console");
 링크를 표현하기 위해서는 `[표시문구](링크주소)` 를 사용합니다.
 
 ```
-[네이버링크](http://www.naver.com)
+[네이버링크](https://www.naver.com)
 ```
 
-[네이버링크](http://www.naver.com)
+[네이버링크](https://www.naver.com)
   
 
 링크의 target을 변경하려면 html태그를 이용해야 합니다.  
 
 ``` html
-<a href="http://www.naver.com" target="_blank">네이버링크</a>
+<a href="https://www.naver.com" target="_blank">네이버링크</a>
 ```
-<a href="http://www.naver.com" target="_blank">네이버링크</a>
+<a href="https://www.naver.com" target="_blank">네이버링크</a>
 
   
 ---
@@ -182,22 +182,22 @@ console.log("test console");
 이미지를 넣으려면 `![이미지설명](이미지url)` 을 사용합니다.
 
 ```
-![엠엔엠로고](http://mnmsoft.co.kr/images/mnmlog.png)
+![엠엔엠로고](https://mnmsoft.co.kr/images/mnmlog.png)
 ```
-![엠엔엠로고](http://mnmsoft.co.kr/images/mnmlog.png)
+![엠엔엠로고](https://mnmsoft.co.kr/images/mnmlog.png)
 
 이미지에 링크를 넣으려면 이렇게 합니다.
 ```
-[![엠엔엠로고](http://mnmsoft.co.kr/images/mnmlog.png)](http://www.mnmsoft.co.kr)
+[![엠엔엠로고](https://mnmsoft.co.kr/images/mnmlog.png)](https://www.mnmsoft.co.kr)
 ```
-[![엠엔엠로고](http://mnmsoft.co.kr/images/mnmlog.png)](http://www.mnmsoft.co.kr)
+[![엠엔엠로고](https://mnmsoft.co.kr/images/mnmlog.png)](https://www.mnmsoft.co.kr)
 
 html을 알고 있다면 html로 하셔도 됩니다.
 ```
-<a href="http://www.mnmsoft.co.kr" target="_blank"><img src="http://mnmsoft.co.kr/images/mnmlog.png"</a>
+<a href="https://www.mnmsoft.co.kr" target="_blank"><img src="https://mnmsoft.co.kr/images/mnmlog.png"</a>
 ```
-<a href="http://www.mnmsoft.co.kr" target="_blank">
-  <img src="http://mnmsoft.co.kr/images/mnmlog.png" alt="엠엔엠로고"/>
+<a href="https://www.mnmsoft.co.kr" target="_blank">
+  <img src="https://mnmsoft.co.kr/images/mnmlog.png" alt="엠엔엠로고"/>
 </a>
 
   
