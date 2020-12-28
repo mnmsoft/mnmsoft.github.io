@@ -1,8 +1,8 @@
 main:
   - title: "Abount"
     url: "https://mnmsoft.github.io/about/"
-  - title: "HTML5 캔버스(canvas) 익히기"
-    url: "https://mnmsoft.github.io/categories/canvas/"
+  - title: "터치팡팡개발과정"
+    url: "https://mnmsoft.github.io/categories/antkill/"
   - title: "Categories"
     url: /categories/
   - title: "Tags"
