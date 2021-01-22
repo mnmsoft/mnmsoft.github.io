@@ -3,6 +3,8 @@ main:
     url: "/about/"
   - title: "터치팡팡개발과정"
     url: "/categories/antkill/"
+  - title: "리엑트공부"
+    url: "/categories/react/"    
   - title: "Categories"
     url: /categories/
   - title: "Tags"
