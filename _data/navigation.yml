@@ -1,6 +1,8 @@
 main:
   - title: "Abount"
     url: "/about/"
+  - title: "JavaScript"
+    url: "/categories/javascript/"    
   - title: "터치팡팡개발과정"
     url: "/categories/antkill/"
   - title: "리엑트공부"
